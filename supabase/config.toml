@@ -1,0 +1,28 @@
+project_id = "sxbppjlsrdyzqblffalx"
+
+[functions.backup-database]
+verify_jwt = false
+
+[functions.restore-database]
+verify_jwt = false
+
+[functions.admin-create-user]
+verify_jwt = false
+
+[functions.admin-delete-user]
+verify_jwt = false
+
+[functions.admin-get-users]
+verify_jwt = false
+
+[functions.admin-update-password]
+verify_jwt = false
+
+[functions.bootstrap]
+verify_jwt = false
+
+[functions.send-asset-return-reminder]
+verify_jwt = false
+
+[functions.export-database-sql]
+verify_jwt = false
